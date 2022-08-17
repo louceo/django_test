@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+{% block header %}
+    <p style="font-size: 150px">
+        {{flatpage.content}}
+    </p>
+{% endblock %}
+{% block subheader %}
+    <span style="font-family: serif;color: firebrick;text-shadow: 2px 2px 0px #000000;font-size: 80px;">
+        {{flatpage.content}}
+    </span>
+{% endblock%}
