@@ -23,5 +23,4 @@ urlpatterns = [
     path('sudo/', views.flatpage, {'url': '/sudo/'}, name = 'sudo'),
     path('fontchange/', views.flatpage, {'url': '/fontchange/'}, name = 'fontchange'),
     path('double/', views.flatpage, {'url': '/double/'}, name = 'double'),
-    path('', views.flatpage, {'url': ''}, name = 'landing')
 ]
